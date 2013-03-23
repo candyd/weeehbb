@@ -1,0 +1,135 @@
+* {
+	border: 0px solid #eee;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html { 
+   background: url(../images/flw2.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  
+}
+body {
+	margin:0;
+	padding:0;	
+} 
+
+a {
+	text-decoration: none;
+	color: #000;
+	outline: 0;
+}
+
+ul {
+	float: left;
+	width: 110px;
+}
+li {
+	list-style: none;
+}
+li a {
+	height: 12px;
+	padding: 0 5px;
+	font-weight: bold;
+	color: #999;
+	display: block;
+} 
+li a:hover {
+	color: #fff;
+}
+
+
+#menu {
+	position: fixed;
+	bottom: 20px;
+	left: 141px;
+	z-index: 80;
+	width: 100%;
+	line-height: 12px;
+}
+#menu div {
+	height: 56px;
+	background: #000;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	padding: 7px 0 0 7px;
+}
+#menu h1 {
+	position: relative;
+	left: -141px;
+	margin-bottom: -63px;
+	width: 140px;
+	opacity: 0.99;
+} 
+
+#menu h1 a{
+	padding: 41px 10px 10px 0;
+	color: #fff;
+	background: #000 url(../images/go.gif) 0 -30px repeat-x;
+	font-size: 11px;
+	text-align: right;
+	display: block;
+}
+
+
+#page-container {
+	width: 760px;
+	margin: auto;
+}
+
+#top-corner {
+	background:;
+	width:760px;
+	margin:auto;
+	background-image: url(../images/logo.jpg);
+	background-repeat:no-repeat;
+	background-attachment:relative;
+	/* background-position:left center;  */
+	background-size:100px 100px;
+	
+	}
+
+#top-corner h1 {
+	display: block;
+	height:238px;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width:300px;
+	background:url('images/PC1.png')no-repeat;
+	position:50px 50px;
+	background-size: initial;
+		
+	text-indent: -9999px;
+}
+
+
+.center-corner {
+	background:;
+	width:800px;
+	height: 400px;
+	margin:auto;
+	/* background-color:#ffffff; */
+	/* opacity:0.6;  */
+	position: right;
+}
+
+#side-corner {
+	background:;
+	float:left;
+	width:280px;
+	height: 600px;
+}
+
+#footer {
+	background:;
+	opacity:0.6;
+	height:15px;
+	clear:both;
+}
+
